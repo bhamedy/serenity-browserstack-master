@@ -1,0 +1,12 @@
+<acceptance-test-run title="Can check tunnel working" name="Can check tunnel working" description="" steps="1" successful="0" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="1875" timestamp="2017-10-03T09:17:16.586+02:00">
+  <user-story id="browserstack-local-testing" name="BrowserStack Local Testing" path="src/test/resources/features/local.feature"/>
+  <tags>
+    <tag name="BrowserStack Local Testing" type="feature"/>
+  </tags>
+  <test-step result="ERROR" duration="1654">
+    <description>Then I should see &quot;Up and running&quot;</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class net.thucydides.core.webdriver.ProvidedDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class net.thucydides.core.webdriver.ProvidedDriver&#xd;
+[com.browserstack.cucumber.steps.LocalCheckSteps.matchTitle(LocalCheckSteps.java:16)]</exception>
+  </test-step>
+</acceptance-test-run>

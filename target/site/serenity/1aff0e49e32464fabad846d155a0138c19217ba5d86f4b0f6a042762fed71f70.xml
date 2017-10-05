@@ -1,0 +1,24 @@
+<acceptance-test-run title="Can find search results" name="Can find search results" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16962" timestamp="2017-10-05T09:17:36.423+02:00">
+  <user-story id="google&apos;s-search-functionality" name="Google&apos;s Search Functionality" path="src/test/resources/features/single.feature"/>
+  <tags>
+    <tag name="Google&apos;s Search Functionality" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9618">
+    <screenshots>
+      <screenshot image="58e9eb14902ef5b869bdc84d53729ea1_NONE.png"/>
+    </screenshots>
+    <description>When I type query as &quot;BrowserStack&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6656">
+    <screenshots>
+      <screenshot image="af8f38e526c237304b44025d948f2d2b_NONE.png"/>
+    </screenshots>
+    <description>And I submit</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="521">
+    <screenshots>
+      <screenshot image="af8f38e526c237304b44025d948f2d2b_NONE.png"/>
+    </screenshots>
+    <description>Then I should see title &quot;BrowserStack - Google Search&quot;</description>
+  </test-step>
+</acceptance-test-run>
